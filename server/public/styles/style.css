@@ -1,0 +1,26 @@
+.highlight{
+    background-color: aqua !important;
+}
+
+.complete{
+    background-color: lightgreen;
+}
+
+.nonComplete{
+    background-color: lightgoldenrodyellow;
+}
+
+.container{
+    background-color: whitesmoke;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: darkred;
+    text-align: center;
+    height: 30px;
+}

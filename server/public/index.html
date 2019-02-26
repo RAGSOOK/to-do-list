@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple To Do List</title>
+    <script src="./vendors/jquery.js"></script>
+    <script src="./scripts/client.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="jumbotron">
+                <h2>Things to do.</h2>
+            </div>
+        </header>
+        <hr />
+
+        <form id="task-form">
+            <input type="text" id="task-description" placeholder="Task Description">
+            <button class="submit btn btn-sm btn-primary">Submit</button>
+        </form>
+        <hr />
+
+        <h3>To Do List</h3>
+        <br />
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <th>Task</th>
+                <th>Complete?</th>
+            </thead>
+            <tbody id="task-table">
+
+            </tbody>
+        </table>
+
+        <button class="btn btn-danger" id="delete-task">Delete</button>
+        <button class="btn btn-success" id="complete-task">Set Complete</button>
+        <button class="btn btn-secondary" id="de-select-row">Unselect</button>
+
+        <br>
+        <br>
+        <br>
+
+        <footer>Cody was here.</footer>
+        
+    </div>
+</body>
+</html>
